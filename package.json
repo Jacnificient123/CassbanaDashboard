@@ -1,0 +1,26 @@
+{
+  "name": "Cassbana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "testChrome": "npm run test -- --browser chrome",
+    "dashboardTest":"npm run test -- --record --key 0d3240cc-b6fd-49ef-8011-161738e2cddd --browser chrome",
+    "headTests":"npm run test -- --headed"
+  },
+  "keywords": [],
+  "author": "King_Jacob",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.0",
+    "cypress-file-upload": "^5.0.8",
+    "mocha": "^9.2.1",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1"
+  },
+  "retries": {
+    "runMode": 2, 
+    "openMode": 0
+  }
+}
