@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://qa.cassbana.com/#/",
+  "defaultCommandTimeout": 100000,
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "projectId": "apdz7r",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+     "reportDir": "cypress/report/mochawesome-report",
+     "charts": true,
+     "overwrite": false,
+     "html": true,
+     "json": false
+    }
+}
